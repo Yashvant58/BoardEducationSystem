@@ -4,10 +4,10 @@ import './Navbar.css'; // Import the custom CSS file
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid ">
+      <div className="container-fluid">
         {/* Logo */}
-        <a className="navbar-brand" href="#">
-        <img
+        <a className="navbar-brand" href="/">
+          <img
             src={`${process.env.PUBLIC_URL}/logo.jpg`}  // Correct way to use the logo from public folder
             alt="Logo"
             className="d-inline-block align-text-top"
@@ -36,17 +36,16 @@ const Navbar = () => {
         {/* Navbar links (Login/Signup and Notes Button) */}
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
-          <li className="nav-item">
-              <a className="btn btn-primary notes-btn" href="#">
+            <li className="nav-item">
+              <button className="btn btn-primary notes-btn" onClick={() => {/* Add your click handler here */}}>
                 Notes
-              </a>
+              </button>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <button className="btn btn-secondary" onClick={() => {/* Add your click handler here */}}>
                 Login / Signup
-              </a>
+              </button>
             </li>
-            
           </ul>
         </div>
       </div>
