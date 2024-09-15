@@ -1,0 +1,89 @@
+/* YouTubeChannels.css */
+.youtube-channels-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .channel-box {
+    padding: 20px;
+  }
+  
+  .channel-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .channel-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .channel-logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+  }
+  
+  .channel-title {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .channel-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .channel-link {
+    font-size: 1rem;
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .channel-link:hover {
+    text-decoration: underline;
+  }
+  
+  .youtube-icon {
+    font-size: 1.2rem;
+    margin-right: 8px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .channel-card {
+      padding: 15px;
+    }
+  
+    .section-title {
+      font-size: 2rem;
+    }
+  
+    .channel-title {
+      font-size: 1.3rem;
+    }
+  
+    .channel-description {
+      font-size: 0.9rem;
+    }
+  
+    .channel-logo {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  

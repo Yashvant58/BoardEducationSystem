@@ -1,0 +1,26 @@
+.slider-container {
+  position: relative;
+}
+
+.slider-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Fixed position styling for icons */
+.contact-icon {
+  position: fixed;
+  width: 40px; /* Adjust size as needed */
+  height: auto;
+  z-index: 10; /* Ensure it's above other content */
+}
+
+.whatsapp-icon {
+  bottom: 20px; /* Position the WhatsApp icon */
+  right: 20px;  /* Adjust as needed */
+}
+
+.telegram-icon {
+  bottom: 70px; /* Position the Telegram icon above WhatsApp icon */
+  right: 20px;  /* Same right position as WhatsApp icon */
+}

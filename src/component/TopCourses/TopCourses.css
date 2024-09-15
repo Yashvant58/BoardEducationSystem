@@ -1,0 +1,64 @@
+/* TopCourses.css */
+.top-courses-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .course-card {
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .course-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  
+  .course-title {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .course-description {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .section-title {
+      font-size: 2rem;
+    }
+  
+    .course-title {
+      font-size: 1.3rem;
+    }
+  
+    .course-description {
+      font-size: 0.9rem;
+    }
+  
+    .course-icon {
+      font-size: 2.5rem;
+    }
+  }
+  
