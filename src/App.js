@@ -29,7 +29,7 @@ function App() {
           <Que />
         </>} />
         
-        {/* Define a new route for YouTube playlists */}
+        {/* Define a new route for YouTube playlists of youtube */}
         <Route path="/class12" element={<YouTubePlaylistsClass12 />} />
       </Routes>
       <Footer />
