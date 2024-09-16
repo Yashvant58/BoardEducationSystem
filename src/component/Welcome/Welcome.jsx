@@ -26,7 +26,7 @@ const Welcome = () => {
     // Open the modal after 30 seconds
     const timer = setTimeout(() => {
       setIsOpen(true);
-    }, 3000); // 30 seconds = 30000 ms
+    }, 30000); // 30 seconds = 30000 ms
 
     return () => clearTimeout(timer); // Cleanup the timer
   }, []);
